@@ -11,7 +11,7 @@ import './App.css';
 // This automatically picks your Render URL in production or localhost in development
 const API_URL = window.location.hostname === 'localhost' 
     ? 'http://localhost:5000' 
-    : 'https://your-backend-name.onrender.com'; // REPLACE WITH YOUR ACTUAL RENDER BACKEND URL
+    : 'https://nearby-connect.onrender.com'; // REPLACE WITH YOUR ACTUAL RENDER BACKEND URL
 
 // Allows browser to handle cookies automatically for JWT across domains
 axios.defaults.withCredentials = true;
