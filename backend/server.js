@@ -18,7 +18,7 @@ app.use(cookieParser());
 // 1. UPDATE CORS: Add your Render frontend URL here
 const allowedOrigins = [
     "http://localhost:5173", // Local development
-    "https://your-frontend-app.onrender.com" // Replace with your actual Render frontend URL
+    "https://nearbyconnect.onrender.com" // Replace with your actual Render frontend URL
 ];
 
 app.use(cors({
